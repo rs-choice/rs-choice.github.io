@@ -57,13 +57,13 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Xiao an</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=SieYHwMAAAAJ&hl=en" target="_blank">Xiao an</a><sup>*</sup>,</span>
               <span class="author-block">
-                <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Jiaxing Sun</a><sup>*</sup>,</span>
+                <a href="https://scholar.google.com/citations?user=dFJ-DwgAAAAJ&hl=en" target="_blank">Jiaxing Sun</a><sup>*</sup>,</span>
               <span class="author-block">
-                <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Zihan Gui</a>,</span>
+                <a href="https://orcid.org/0009-0006-5113-9194" target="_blank">Zihan Gui</a>,</span>
               <span class="author-block">
-                <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Wei He</a><sup>†</sup>
+                <a href="https://scholar.google.com/citations?user=5qWEM-oAAAAJ&hl=en&oi=ao" target="_blank">Wei He</a><sup>†</sup>
               </span>
             </div>
 
@@ -170,7 +170,10 @@
   <section class="section" id="leaderboard">
     <div class="container is-max-desktop">
       <h2 class="title is-3 has-text-centered">CHOICE Leaderboard</h2>
-      <h3 class="subtitle">L2</h3>
+      
+
+      
+      <h3 class="enhanced-title title-l2 has-text-centered">L2</h3>
       <table id="leaderboard-table" class="table is-striped is-hoverable is-fullwidth has-text-centered"
         style="white-space: nowrap;">
         <thead>
@@ -184,242 +187,13 @@
             <th onclick="sortTable(6, this)">CSR <span></span></th>
           </tr>
         </thead>
-        <tbody>
-          <tr class="has-background-warning-light is-clickable" onclick="toggleGroup('proprietary')">
-            <td colspan="7" class="has-text-centered"><strong>Proprietary Large Vision-Language Models (click to
-                toggle)</strong></td>
-          </tr>
-          <tr class="group-proprietary">
-            <td>GPT-4o-mini</td>
-            <td>0.800</td>
-            <td>0.588</td>
-            <td>0.448</td>
-            <td>0.494</td>
-            <td>0.474</td>
-            <td>0.876</td>
-          </tr>
-          <tr class="group-proprietary">
-            <td>GPT-4o-2024-11-20</td>
-            <td>0.845</td>
-            <td>0.616</td>
-            <td>0.591</td>
-            <td>0.536</td>
-            <td>0.277</td>
-            <td>0.900</td>
-          </tr>
-          <tr class="group-proprietary">
-            <td>Gemini-1.5-Pro</td>
-            <td>0.867</td>
-            <td>0.585</td>
-            <td>0.636</td>
-            <td>0.590</td>
-            <td>0.611</td>
-            <td>0.876</td>
-          </tr>
-
-          <tr class="has-background-info-light is-clickable" onclick="toggleGroup('general')">
-            <td colspan="7" class="has-text-centered"><strong>General-domain Large Vision-Language Models (click to
-                toggle)</strong></td>
-          </tr>
-          <tr class="group-general">
-            <td>Qwen2-VL-7B</td>
-            <td>0.806</td>
-            <td>0.638</td>
-            <td>0.675</td>
-            <td>0.600</td>
-            <td>0.550</td>
-            <td>0.884</td>
-          </tr>
-          <tr class="group-general">
-            <td>Qwen2-VL-72B</td>
-            <td>0.855</td>
-            <td>0.702</td>
-            <td>0.742</td>
-            <td>0.634</td>
-            <td>0.580</td>
-            <td>0.914</td>
-          </tr>
-          <tr class="group-general">
-            <td>Ovis1.6-Gemma2-9B</td>
-            <td>0.828</td>
-            <td>0.606</td>
-            <td>0.632</td>
-            <td>0.598</td>
-            <td>0.645</td>
-            <td>0.890</td>
-          </tr>
-          <tr class="group-general">
-            <td>InternVL2-8B</td>
-            <td>0.789</td>
-            <td>0.566</td>
-            <td>0.648</td>
-            <td>0.664</td>
-            <td>0.580</td>
-            <td>0.816</td>
-          </tr>
-          <tr class="group-general">
-            <td>InternVL2-26B</td>
-            <td>0.820</td>
-            <td>0.578</td>
-            <td>0.595</td>
-            <td>0.594</td>
-            <td>0.638</td>
-            <td>0.890</td>
-          </tr>
-          <tr class="group-general">
-            <td>InternVL2-40B</td>
-            <td>0.838</td>
-            <td>0.629</td>
-            <td>0.721</td>
-            <td>0.694</td>
-            <td>0.530</td>
-            <td>0.946</td>
-          </tr>
-          <tr class="group-general">
-            <td>LLaVA-1.6-7B</td>
-            <td>0.686</td>
-            <td>0.463</td>
-            <td>0.574</td>
-            <td>0.450</td>
-            <td>0.433</td>
-            <td>0.749</td>
-          </tr>
-          <tr class="group-general">
-            <td>LLaVA-1.6-13B</td>
-            <td>0.719</td>
-            <td>0.522</td>
-            <td>0.626</td>
-            <td>0.474</td>
-            <td>0.470</td>
-            <td>0.733</td>
-          </tr>
-          <tr class="group-general">
-            <td>Llama3.2-11B</td>
-            <td>0.746</td>
-            <td>0.502</td>
-            <td>0.504</td>
-            <td>0.460</td>
-            <td>0.388</td>
-            <td>0.803</td>
-          </tr>
-          <tr class="group-general">
-            <td>GLM-4V-9B</td>
-            <td>0.785</td>
-            <td>0.555</td>
-            <td>0.644</td>
-            <td>0.564</td>
-            <td>0.450</td>
-            <td>0.863</td>
-          </tr>
-          <tr class="group-general">
-            <td>DeepSeek-VL-7B</td>
-            <td>0.764</td>
-            <td>0.561</td>
-            <td>0.595</td>
-            <td>0.528</td>
-            <td>0.373</td>
-            <td>0.840</td>
-          </tr>
-          <tr class="group-general">
-            <td>MiniCPM-V-2.5</td>
-            <td>0.757</td>
-            <td>0.546</td>
-            <td>0.631</td>
-            <td>0.414</td>
-            <td>0.493</td>
-            <td>0.857</td>
-          </tr>
-          <tr class="group-general">
-            <td>Phi3-Vision</td>
-            <td>0.710</td>
-            <td>0.503</td>
-            <td>0.582</td>
-            <td>0.428</td>
-            <td>0.253</td>
-            <td>0.700</td>
-          </tr>
-          <tr class="group-general">
-            <td>mPLUG-Owl3-7B</td>
-            <td>0.766</td>
-            <td>0.524</td>
-            <td>0.487</td>
-            <td>0.422</td>
-            <td>0.340</td>
-            <td>0.850</td>
-          </tr>
-          <tr class="group-general">
-            <td>Molmo-7B-D</td>
-            <td>0.720</td>
-            <td>0.553</td>
-            <td>0.648</td>
-            <td>0.536</td>
-            <td>0.548</td>
-            <td>0.724</td>
-          </tr>
-
-          <tr class="has-background-primary-light is-clickable" onclick="toggleGroup('remote')">
-            <td colspan="7" class="has-text-centered"><strong>Remote Sensing Large Vision-Language Models (click to
-                toggle)</strong></td>
-          </tr>
-          <tr class="group-remote">
-            <td>GeoChat</td>
-            <td>0.642</td>
-            <td>0.469</td>
-            <td>0.480</td>
-            <td>0.384</td>
-            <td>0.368</td>
-            <td>0.697</td>
-          </tr>
-          <tr class="group-remote">
-            <td>LHRS-Bot</td>
-            <td>0.633</td>
-            <td>0.290</td>
-            <td>0.171</td>
-            <td>0.366</td>
-            <td>0.426</td>
-            <td>0.610</td>
-          </tr>
-          <tr class="group-remote">
-            <td>LHRS-Bot-nova</td>
-            <td>0.688</td>
-            <td>0.530</td>
-            <td>0.526</td>
-            <td>0.450</td>
-            <td>0.120</td>
-            <td>0.644</td>
-          </tr>
-          <tr class="group-remote">
-            <td>VHM</td>
-            <td>0.751</td>
-            <td>0.703</td>
-            <td>0.436</td>
-            <td>0.392</td>
-            <td>0.348</td>
-            <td>0.744</td>
-          </tr>
-          <tr class="group-remote">
-            <td>RemoteCLIP</td>
-            <td>0.657</td>
-            <td>0.283</td>
-            <td>0.552</td>
-            <td>0.326</td>
-            <td>0.364</td>
-            <td>0.739</td>
-          </tr>
-          <tr class="group-remote">
-            <td>GeoRSCLIP</td>
-            <td>0.745</td>
-            <td>0.198</td>
-            <td>0.285</td>
-            <td>0.210</td>
-            <td>0.397</td>
-            <td>0.884</td>
-          </tr>
+        <tbody id="leaderboard-body">
+          <!-- Data will be loaded here by JavaScript -->
         </tbody>
       </table>
 
-      <h3 class="subtitle has-text-left">Perception</h3>
-      <div style="overflow-x: auto; white-space: nowrap;">
+      <h3 class="enhanced-title title-perception has-text-centered">Perception</h3>
+      <div class="table-container">
         <table id="perception-table" class="table is-striped is-hoverable is-fullwidth has-text-centered">
           <thead>
             <tr>
@@ -446,460 +220,14 @@
               <th onclick="sortPerceptionTable(15, this)">CD <span></span></th>
             </tr>
           </thead>
-          <tbody>
-            <tr class="has-background-warning-light is-clickable" onclick="toggleGroup('proprietary')">
-              <td colspan="16" class="has-text-centered"><strong>Proprietary Large Vision-Language Models (click to
-                  toggle)</strong></td>
-            </tr>
-            <tr class="group-proprietary">
-              <td>GPT-4o-mini</td>
-              <td>0.781</td>
-              <td>0.500</td>
-              <td>0.490</td>
-              <td>0.937</td>
-              <td>0.940</td>
-              <td>0.940</td>
-              <td>0.542</td>
-              <td>0.612</td>
-              <td>0.914</td>
-              <td>0.604</td>
-              <td>0.000</td>
-              <td>0.906</td>
-              <td>0.426</td>
-              <td>0.340</td>
-              <td>0.650</td>
-            </tr>
-            <tr class="group-proprietary">
-              <td>GPT-4o-2024-11-20</td>
-              <td>0.868</td>
-              <td>0.564</td>
-              <td>0.567</td>
-              <td>0.954</td>
-              <td>1.000</td>
-              <td>0.940</td>
-              <td>0.594</td>
-              <td>0.768</td>
-              <td>0.918</td>
-              <td>0.610</td>
-              <td>0.028</td>
-              <td>0.830</td>
-              <td>0.509</td>
-              <td>0.567</td>
-              <td>0.770</td>
-            </tr>
-            <tr class="group-proprietary">
-              <td>Gemini-1.5-Pro</td>
-              <td>0.874</td>
-              <td>0.678</td>
-              <td>0.790</td>
-              <td>0.937</td>
-              <td>0.955</td>
-              <td>0.960</td>
-              <td>0.634</td>
-              <td>0.578</td>
-              <td>0.952</td>
-              <td>0.548</td>
-              <td>0.027</td>
-              <td>0.810</td>
-              <td>0.797</td>
-              <td>0.413</td>
-              <td>0.690</td>
-            </tr>
-
-            <tr class="has-background-info-light is-clickable" onclick="toggleGroup('general')">
-              <td colspan="16" class="has-text-centered"><strong>General-domain Large Vision-Language Models (click to
-                  toggle)</strong></td>
-            </tr>
-            <tr class="group-general">
-              <td>Qwen2-VL-7B</td>
-              <td>0.720</td>
-              <td>0.540</td>
-              <td>0.800</td>
-              <td>0.930</td>
-              <td>0.980</td>
-              <td>0.980</td>
-              <td>0.560</td>
-              <td>0.790</td>
-              <td>0.950</td>
-              <td>0.570</td>
-              <td>0.372</td>
-              <td>0.570</td>
-              <td>0.750</td>
-              <td>0.510</td>
-              <td>0.790</td>
-            </tr>
-            <tr class="group-general">
-              <td>Qwen2-VL-72B</td>
-              <td>0.860</td>
-              <td>0.560</td>
-              <td>0.800</td>
-              <td>0.960</td>
-              <td>1.000</td>
-              <td>0.970</td>
-              <td>0.620</td>
-              <td>0.840</td>
-              <td>0.950</td>
-              <td>0.580</td>
-              <td>0.530</td>
-              <td>0.670</td>
-              <td>0.800</td>
-              <td>0.610</td>
-              <td>0.840</td>
-            </tr>
-            <tr class="group-general">
-              <td>Ovis1.6-Gemma2-9B</td>
-              <td>0.800</td>
-              <td>0.570</td>
-              <td>0.660</td>
-              <td>0.940</td>
-              <td>0.990</td>
-              <td>0.880</td>
-              <td>0.500</td>
-              <td>0.720</td>
-              <td>0.940</td>
-              <td>0.570</td>
-              <td>0.060</td>
-              <td>0.900</td>
-              <td>0.680</td>
-              <td>0.490</td>
-              <td>0.760</td>
-            </tr>
-            <tr class="group-general">
-              <td>InternVL2-8B</td>
-              <td>0.730</td>
-              <td>0.520</td>
-              <td>0.430</td>
-              <td>0.930</td>
-              <td>0.970</td>
-              <td>0.770</td>
-              <td>0.400</td>
-              <td>0.590</td>
-              <td>0.890</td>
-              <td>0.590</td>
-              <td>0.173</td>
-              <td>0.790</td>
-              <td>0.850</td>
-              <td>0.370</td>
-              <td>0.710</td>
-            </tr>
-            <tr class="group-general">
-              <td>InternVL2-26B</td>
-              <td>0.780</td>
-              <td>0.540</td>
-              <td>0.610</td>
-              <td>0.950</td>
-              <td>0.960</td>
-              <td>0.980</td>
-              <td>0.460</td>
-              <td>0.680</td>
-              <td>0.950</td>
-              <td>0.620</td>
-              <td>0.052</td>
-              <td>0.730</td>
-              <td>0.660</td>
-              <td>0.410</td>
-              <td>0.760</td>
-            </tr>
-            <tr class="group-general">
-              <td>InternVL2-40B</td>
-              <td>0.820</td>
-              <td>0.570</td>
-              <td>0.550</td>
-              <td>0.960</td>
-              <td>0.990</td>
-              <td>0.970</td>
-              <td>0.530</td>
-              <td>0.770</td>
-              <td>0.980</td>
-              <td>0.610</td>
-              <td>0.228</td>
-              <td>0.670</td>
-              <td>0.870</td>
-              <td>0.500</td>
-              <td>0.790</td>
-            </tr>
-            <tr class="group-general">
-              <td>LLaVA-1.6-7B</td>
-              <td>0.340</td>
-              <td>0.460</td>
-              <td>0.380</td>
-              <td>0.920</td>
-              <td>0.880</td>
-              <td>0.740</td>
-              <td>0.220</td>
-              <td>0.690</td>
-              <td>0.970</td>
-              <td>0.590</td>
-              <td>0.237</td>
-              <td>0.060</td>
-              <td>0.730</td>
-              <td>0.340</td>
-              <td>0.650</td>
-            </tr>
-            <tr class="group-general">
-              <td>LLaVA-1.6-13B</td>
-              <td>0.480</td>
-              <td>0.490</td>
-              <td>0.400</td>
-              <td>0.910</td>
-              <td>0.940</td>
-              <td>0.700</td>
-              <td>0.400</td>
-              <td>0.670</td>
-              <td>0.860</td>
-              <td>0.610</td>
-              <td>0.302</td>
-              <td>0.300</td>
-              <td>0.790</td>
-              <td>0.400</td>
-              <td>0.680</td>
-            </tr>
-            <tr class="group-general">
-              <td>Llama3.2-11B</td>
-              <td>0.650</td>
-              <td>0.400</td>
-              <td>0.650</td>
-              <td>0.910</td>
-              <td>0.940</td>
-              <td>0.890</td>
-              <td>0.510</td>
-              <td>0.650</td>
-              <td>0.920</td>
-              <td>0.590</td>
-              <td>0.002</td>
-              <td>0.360</td>
-              <td>0.580</td>
-              <td>0.310</td>
-              <td>0.660</td>
-            </tr>
-            <tr class="group-general">
-              <td>GLM-4V-9B</td>
-              <td>0.660</td>
-              <td>0.500</td>
-              <td>0.680</td>
-              <td>0.940</td>
-              <td>0.950</td>
-              <td>0.980</td>
-              <td>0.530</td>
-              <td>0.670</td>
-              <td>0.930</td>
-              <td>0.600</td>
-              <td>0.003</td>
-              <td>0.620</td>
-              <td>0.840</td>
-              <td>0.370</td>
-              <td>0.710</td>
-            </tr>
-            <tr class="group-general">
-              <td>DeepSeek-VL-7B</td>
-              <td>0.570</td>
-              <td>0.540</td>
-              <td>0.670</td>
-              <td>0.920</td>
-              <td>0.940</td>
-              <td>0.890</td>
-              <td>0.460</td>
-              <td>0.740</td>
-              <td>0.950</td>
-              <td>0.530</td>
-              <td>0.253</td>
-              <td>0.430</td>
-              <td>0.770</td>
-              <td>0.340</td>
-              <td>0.670</td>
-            </tr>
-            <tr class="group-general">
-              <td>MiniCPM-V-2.5</td>
-              <td>0.610</td>
-              <td>0.430</td>
-              <td>0.690</td>
-              <td>0.930</td>
-              <td>0.980</td>
-              <td>0.900</td>
-              <td>0.460</td>
-              <td>0.600</td>
-              <td>0.940</td>
-              <td>0.610</td>
-              <td>0.055</td>
-              <td>0.640</td>
-              <td>0.790</td>
-              <td>0.400</td>
-              <td>0.700</td>
-            </tr>
-            <tr class="group-general">
-              <td>Phi3-Vision</td>
-              <td>0.510</td>
-              <td>0.480</td>
-              <td>0.480</td>
-              <td>0.880</td>
-              <td>0.910</td>
-              <td>0.660</td>
-              <td>0.350</td>
-              <td>0.760</td>
-              <td>0.910</td>
-              <td>0.560</td>
-              <td>0.105</td>
-              <td>0.380</td>
-              <td>0.770</td>
-              <td>0.370</td>
-              <td>0.570</td>
-            </tr>
-            <tr class="group-general">
-              <td>mPLUG-Owl3-7B</td>
-              <td>0.770</td>
-              <td>0.420</td>
-              <td>0.670</td>
-              <td>0.890</td>
-              <td>0.960</td>
-              <td>0.920</td>
-              <td>0.500</td>
-              <td>0.660</td>
-              <td>0.950</td>
-              <td>0.590</td>
-              <td>0.073</td>
-              <td>0.380</td>
-              <td>0.520</td>
-              <td>0.300</td>
-              <td>0.710</td>
-            </tr>
-            <tr class="group-general">
-              <td>Molmo-7B-D</td>
-              <td>0.560</td>
-              <td>0.530</td>
-              <td>0.350</td>
-              <td>0.870</td>
-              <td>0.920</td>
-              <td>0.740</td>
-              <td>0.390</td>
-              <td>0.630</td>
-              <td>0.920</td>
-              <td>0.670</td>
-              <td>0.015</td>
-              <td>0.760</td>
-              <td>0.800</td>
-              <td>0.490</td>
-              <td>0.620</td>
-            </tr>
-
-            <tr class="has-background-primary-light is-clickable" onclick="toggleGroup('remote')">
-              <td colspan="16" class="has-text-centered"><strong>Remote Sensing Large Vision-Language Models (click to
-                  toggle)</strong></td>
-            </tr>
-            <tr class="group-remote">
-              <td>GeoChat</td>
-              <td>0.313</td>
-              <td>0.299</td>
-              <td>0.433</td>
-              <td>0.922</td>
-              <td>0.710</td>
-              <td>0.790</td>
-              <td>0.218</td>
-              <td>0.762</td>
-              <td>0.934</td>
-              <td>0.510</td>
-              <td>0.297</td>
-              <td>0.064</td>
-              <td>0.671</td>
-              <td>0.300</td>
-              <td>0.415</td>
-            </tr>
-            <tr class="group-remote">
-              <td>LHRS-Bot</td>
-              <td>0.288</td>
-              <td>0.306</td>
-              <td>0.318</td>
-              <td>0.915</td>
-              <td>0.755</td>
-              <td>0.500</td>
-              <td>0.252</td>
-              <td>0.164</td>
-              <td>0.936</td>
-              <td>0.330</td>
-              <td>–</td>
-              <td>0.076</td>
-              <td>–</td>
-              <td>0.267</td>
-              <td>0.325</td>
-            </tr>
-            <tr class="group-remote">
-              <td>LHRS-Bot-nova</td>
-              <td>0.479</td>
-              <td>0.271</td>
-              <td>0.350</td>
-              <td>0.950</td>
-              <td>0.840</td>
-              <td>0.690</td>
-              <td>0.412</td>
-              <td>0.642</td>
-              <td>0.972</td>
-              <td>0.528</td>
-              <td>0.271</td>
-              <td>0.372</td>
-              <td>0.737</td>
-              <td>0.257</td>
-              <td>0.560</td>
-            </tr>
-            <tr class="group-remote">
-              <td>VHM</td>
-              <td>0.621</td>
-              <td>0.428</td>
-              <td>0.299</td>
-              <td>0.966</td>
-              <td>0.765</td>
-              <td>0.760</td>
-              <td>0.342</td>
-              <td>0.872</td>
-              <td>0.932</td>
-              <td>0.564</td>
-              <td>0.598</td>
-              <td>0.922</td>
-              <td>0.431</td>
-              <td>0.347</td>
-              <td>0.580</td>
-            </tr>
-            <tr class="group-remote">
-              <td>RemoteCLIP</td>
-              <td>0.510</td>
-              <td>0.303</td>
-              <td>0.369</td>
-              <td>0.891</td>
-              <td>0.775</td>
-              <td>0.700</td>
-              <td>0.435</td>
-              <td>0.295</td>
-              <td>0.715</td>
-              <td>0.500</td>
-              <td>–</td>
-              <td>0.050</td>
-              <td>0.688</td>
-              <td>0.248</td>
-              <td>0.545</td>
-            </tr>
-            <tr class="group-remote">
-              <td>GeoRSCLIP</td>
-              <td>0.705</td>
-              <td>0.303</td>
-              <td>0.471</td>
-              <td>0.944</td>
-              <td>0.860</td>
-              <td>0.980</td>
-              <td>0.230</td>
-              <td>0.360</td>
-              <td>0.750</td>
-              <td>0.250</td>
-              <td>–</td>
-              <td>0.050</td>
-              <td>0.361</td>
-              <td>0.248</td>
-              <td>0.570</td>
-            </tr>
+          <tbody id="perception-body">
+            <!-- Data will be loaded here by JavaScript -->
           </tbody>
-
         </table>
       </div>
 
-      <h3 class="subtitle has-text-left">Reasoning</h3>
-      <div style="overflow-x: auto; white-space: nowrap;">
+      <h3 class="enhanced-title title-reasoning has-text-centered">Reasoning</h3>
+      <div class="table-container">
         <table id="reasoning-table" class="table is-striped is-hoverable is-fullwidth has-text-centered">
           <thead>
             <tr>
@@ -918,258 +246,8 @@
               <th onclick="sortReasoningTable(7, this)">SI <span></span></th>
             </tr>
           </thead>
-          <tbody>
-            <tr class="has-background-warning-light">
-              <td colspan="8"><strong>Proprietary Large Vision-Language Models</strong></td>
-            </tr>
-            <tr class="group-proprietary">
-              <td>GPT-4o-mini</td>
-              <td>0.420</td>
-              <td>0.543</td>
-              <td>0.420</td>
-              <td>0.492</td>
-              <td>0.870</td>
-              <td>0.925</td>
-              <td>0.847</td>
-            </tr>
-            <tr class="group-proprietary">
-              <td>GPT-4o-2024-11-20</td>
-              <td>0.565</td>
-              <td>0.517</td>
-              <td>0.470</td>
-              <td>0.213</td>
-              <td>0.890</td>
-              <td>0.950</td>
-              <td>0.873</td>
-            </tr>
-            <tr class="group-proprietary">
-              <td>Gemini-1.5-Pro</td>
-              <td>0.520</td>
-              <td>0.637</td>
-              <td>0.460</td>
-              <td>0.662</td>
-              <td>0.835</td>
-              <td>0.985</td>
-              <td>0.830</td>
-            </tr>
-
-            <tr class="has-background-info-light">
-              <td colspan="8"><strong>General-domain Large Vision-Language Models</strong></td>
-            </tr>
-            <tr class="group-general">
-              <td>Qwen2-VL-7B</td>
-              <td>0.510</td>
-              <td>0.660</td>
-              <td>0.580</td>
-              <td>0.540</td>
-              <td>0.880</td>
-              <td>0.970</td>
-              <td>0.830</td>
-            </tr>
-            <tr class="group-general">
-              <td>Qwen2-VL-72B</td>
-              <td>0.580</td>
-              <td>0.670</td>
-              <td>0.490</td>
-              <td>0.610</td>
-              <td>0.900</td>
-              <td>0.980</td>
-              <td>0.880</td>
-            </tr>
-            <tr class="group-general">
-              <td>Ovis1.6-Gemma2-9B</td>
-              <td>0.580</td>
-              <td>0.610</td>
-              <td>0.600</td>
-              <td>0.660</td>
-              <td>0.910</td>
-              <td>0.930</td>
-              <td>0.850</td>
-            </tr>
-            <tr class="group-general">
-              <td>InternVL2-8B</td>
-              <td>0.520</td>
-              <td>0.760</td>
-              <td>0.400</td>
-              <td>0.640</td>
-              <td>0.880</td>
-              <td>0.790</td>
-              <td>0.790</td>
-            </tr>
-            <tr class="group-general">
-              <td>InternVL2-26B</td>
-              <td>0.510</td>
-              <td>0.650</td>
-              <td>0.690</td>
-              <td>0.620</td>
-              <td>0.850</td>
-              <td>0.960</td>
-              <td>0.870</td>
-            </tr>
-            <tr class="group-general">
-              <td>InternVL2-40B</td>
-              <td>0.610</td>
-              <td>0.750</td>
-              <td>0.560</td>
-              <td>0.520</td>
-              <td>0.950</td>
-              <td>0.980</td>
-              <td>0.920</td>
-            </tr>
-            <tr class="group-general">
-              <td>LLaVA-1.6-7B</td>
-              <td>0.300</td>
-              <td>0.550</td>
-              <td>0.320</td>
-              <td>0.470</td>
-              <td>0.740</td>
-              <td>0.710</td>
-              <td>0.780</td>
-            </tr>
-            <tr class="group-general">
-              <td>LLaVA-1.6-13B</td>
-              <td>0.330</td>
-              <td>0.570</td>
-              <td>0.560</td>
-              <td>0.440</td>
-              <td>0.740</td>
-              <td>0.640</td>
-              <td>0.790</td>
-            </tr>
-            <tr class="group-general">
-              <td>Llama3.2-11B</td>
-              <td>0.430</td>
-              <td>0.480</td>
-              <td>0.440</td>
-              <td>0.370</td>
-              <td>0.810</td>
-              <td>0.890</td>
-              <td>0.740</td>
-            </tr>
-            <tr class="group-general">
-              <td>GLM-4V-9B</td>
-              <td>0.420</td>
-              <td>0.660</td>
-              <td>0.360</td>
-              <td>0.480</td>
-              <td>0.860</td>
-              <td>0.990</td>
-              <td>0.780</td>
-            </tr>
-            <tr class="group-general">
-              <td>DeepSeek-VL-7B</td>
-              <td>0.390</td>
-              <td>0.620</td>
-              <td>0.170</td>
-              <td>0.440</td>
-              <td>0.860</td>
-              <td>0.880</td>
-              <td>0.800</td>
-            </tr>
-            <tr class="group-general">
-              <td>MiniCPM-V-2.5</td>
-              <td>0.390</td>
-              <td>0.430</td>
-              <td>0.620</td>
-              <td>0.450</td>
-              <td>0.920</td>
-              <td>0.880</td>
-              <td>0.800</td>
-            </tr>
-            <tr class="group-general">
-              <td>Phi3-Vision</td>
-              <td>0.380</td>
-              <td>0.460</td>
-              <td>0.290</td>
-              <td>0.240</td>
-              <td>0.850</td>
-              <td>0.580</td>
-              <td>0.680</td>
-            </tr>
-            <tr class="group-general">
-              <td>mPLUG-Owl3-7B</td>
-              <td>0.350</td>
-              <td>0.470</td>
-              <td>0.520</td>
-              <td>0.280</td>
-              <td>0.900</td>
-              <td>0.860</td>
-              <td>0.810</td>
-            </tr>
-            <tr class="group-general">
-              <td>Molmo-7B-D</td>
-              <td>0.500</td>
-              <td>0.560</td>
-              <td>0.600</td>
-              <td>0.530</td>
-              <td>0.940</td>
-              <td>0.530</td>
-              <td>0.710</td>
-            </tr>
-
-            <tr class="has-background-primary-light">
-              <td colspan="8"><strong>Remote Sensing Large Vision-Language Models</strong></td>
-            </tr>
-            <tr class="group-remote">
-              <td>GeoChat</td>
-              <td>0.255</td>
-              <td>0.470</td>
-              <td>0.105</td>
-              <td>0.455</td>
-              <td>0.660</td>
-              <td>0.810</td>
-              <td>0.647</td>
-            </tr>
-            <tr class="group-remote">
-              <td>LHRS-Bot</td>
-              <td>0.260</td>
-              <td>0.437</td>
-              <td>0.480</td>
-              <td>0.408</td>
-              <td>0.550</td>
-              <td>0.435</td>
-              <td>0.767</td>
-            </tr>
-            <tr class="group-remote">
-              <td>LHRS-Bot-nova</td>
-              <td>0.315</td>
-              <td>0.540</td>
-              <td>0.185</td>
-              <td>0.098</td>
-              <td>0.525</td>
-              <td>0.520</td>
-              <td>0.807</td>
-            </tr>
-            <tr class="group-remote">
-              <td>VHM</td>
-              <td>0.405</td>
-              <td>0.383</td>
-              <td>0.340</td>
-              <td>0.350</td>
-              <td>0.740</td>
-              <td>0.760</td>
-              <td>0.737</td>
-            </tr>
-            <tr class="group-remote">
-              <td>RemoteCLIP</td>
-              <td>0.335</td>
-              <td>0.210</td>
-              <td>0.035</td>
-              <td>0.245</td>
-              <td>0.820</td>
-              <td>0.650</td>
-              <td>0.740</td>
-            </tr>
-            <tr class="group-remote">
-              <td>GeoRSCLIP</td>
-              <td>0.400</td>
-              <td>0.310</td>
-              <td>0.310</td>
-              <td>0.260</td>
-              <td>0.945</td>
-              <td>0.935</td>
-              <td>0.880</td>
-            </tr>
+          <tbody id="reasoning-body">
+            <!-- Data will be loaded here by JavaScript -->
           </tbody>
         </table>
       </div>
@@ -1177,10 +255,430 @@
     </div>
   </section>
 
+
+
+
+
+  <script>
+    // Leaderboard data configuration
+    const leaderboardData = {
+      // Proprietary models
+      proprietary: [
+        {
+          name: "GPT-4o-mini",
+          scores: [0.800, 0.588, 0.448, 0.494, 0.474, 0.876],
+          perception: [0.781, 0.500, 0.490, 0.937, 0.940, 0.940, 0.542, 0.612, 0.914, 0.604, 0.000, 0.906, 0.426, 0.340, 0.650],
+          reasoning: [0.420, 0.543, 0.420, 0.492, 0.870, 0.925, 0.847]
+        },
+        {
+          name: "GPT-4o-2024-11-20",
+          scores: [0.845, 0.616, 0.591, 0.536, 0.277, 0.900],
+          perception: [0.868, 0.564, 0.567, 0.954, 1.000, 0.940, 0.594, 0.768, 0.918, 0.610, 0.028, 0.830, 0.509, 0.567, 0.770],
+          reasoning: [0.565, 0.517, 0.470, 0.213, 0.890, 0.950, 0.873]
+        },
+        {
+          name: "Gemini-1.5-Pro",
+          scores: [0.867, 0.585, 0.636, 0.590, 0.611, 0.876],
+          perception: [0.874, 0.678, 0.790, 0.937, 0.955, 0.960, 0.634, 0.578, 0.952, 0.548, 0.027, 0.810, 0.797, 0.413, 0.690],
+          reasoning: [0.520, 0.637, 0.460, 0.662, 0.835, 0.985, 0.830]
+        }
+      ],
+      
+      // General-domain models
+      general: [
+        {
+          name: "Qwen2-VL-7B",
+          scores: [0.806, 0.638, 0.675, 0.600, 0.550, 0.884],
+          perception: [0.720, 0.540, 0.800, 0.930, 0.980, 0.980, 0.560, 0.790, 0.950, 0.570, 0.372, 0.570, 0.750, 0.510, 0.790],
+          reasoning: [0.510, 0.660, 0.580, 0.540, 0.880, 0.970, 0.830]
+        },
+        {
+          name: "Qwen2-VL-72B",
+          scores: [0.855, 0.702, 0.742, 0.634, 0.580, 0.914],
+          perception: [0.860, 0.560, 0.800, 0.960, 1.000, 0.970, 0.620, 0.840, 0.950, 0.580, 0.530, 0.670, 0.800, 0.610, 0.840],
+          reasoning: [0.580, 0.670, 0.490, 0.610, 0.900, 0.980, 0.880]
+        },
+        {
+          name: "Ovis1.6-Gemma2-9B",
+          scores: [0.828, 0.606, 0.632, 0.598, 0.645, 0.890],
+          perception: [0.800, 0.570, 0.660, 0.940, 0.990, 0.880, 0.500, 0.720, 0.940, 0.570, 0.060, 0.900, 0.680, 0.490, 0.760],
+          reasoning: [0.580, 0.610, 0.600, 0.660, 0.910, 0.930, 0.850]
+        },
+        {
+          name: "InternVL2-8B",
+          scores: [0.789, 0.566, 0.648, 0.664, 0.580, 0.816],
+          perception: [0.730, 0.520, 0.430, 0.930, 0.970, 0.770, 0.400, 0.590, 0.890, 0.590, 0.173, 0.790, 0.850, 0.370, 0.710],
+          reasoning: [0.520, 0.760, 0.400, 0.640, 0.880, 0.790, 0.790]
+        },
+        {
+          name: "InternVL2-26B",
+          scores: [0.820, 0.578, 0.595, 0.594, 0.638, 0.890],
+          perception: [0.780, 0.540, 0.610, 0.950, 0.960, 0.980, 0.460, 0.680, 0.950, 0.620, 0.052, 0.730, 0.660, 0.410, 0.760],
+          reasoning: [0.510, 0.650, 0.690, 0.620, 0.850, 0.960, 0.870]
+        },
+        {
+          name: "InternVL2-40B",
+          scores: [0.838, 0.629, 0.721, 0.694, 0.530, 0.946],
+          perception: [0.820, 0.570, 0.550, 0.960, 0.990, 0.970, 0.530, 0.770, 0.980, 0.610, 0.228, 0.670, 0.870, 0.500, 0.790],
+          reasoning: [0.610, 0.750, 0.560, 0.520, 0.950, 0.980, 0.920]
+        },
+        {
+          name: "LLaVA-1.6-7B",
+          scores: [0.686, 0.463, 0.574, 0.450, 0.433, 0.749],
+          perception: [0.340, 0.460, 0.380, 0.920, 0.880, 0.740, 0.220, 0.690, 0.970, 0.590, 0.237, 0.060, 0.730, 0.340, 0.650],
+          reasoning: [0.300, 0.550, 0.320, 0.470, 0.740, 0.710, 0.780]
+        },
+        {
+          name: "LLaVA-1.6-13B",
+          scores: [0.719, 0.522, 0.626, 0.474, 0.470, 0.733],
+          perception: [0.480, 0.490, 0.400, 0.910, 0.940, 0.700, 0.400, 0.670, 0.860, 0.610, 0.302, 0.300, 0.790, 0.400, 0.680],
+          reasoning: [0.330, 0.570, 0.560, 0.440, 0.740, 0.640, 0.790]
+        },
+        {
+          name: "Llama3.2-11B",
+          scores: [0.746, 0.502, 0.504, 0.460, 0.388, 0.803],
+          perception: [0.650, 0.400, 0.650, 0.910, 0.940, 0.890, 0.510, 0.650, 0.920, 0.590, 0.002, 0.360, 0.580, 0.310, 0.660],
+          reasoning: [0.430, 0.480, 0.440, 0.370, 0.810, 0.890, 0.740]
+        },
+        {
+          name: "GLM-4V-9B",
+          scores: [0.785, 0.555, 0.644, 0.564, 0.450, 0.863],
+          perception: [0.660, 0.500, 0.680, 0.940, 0.950, 0.980, 0.530, 0.670, 0.930, 0.600, 0.003, 0.620, 0.840, 0.370, 0.710],
+          reasoning: [0.420, 0.660, 0.360, 0.480, 0.860, 0.990, 0.780]
+        },
+        {
+          name: "DeepSeek-VL-7B",
+          scores: [0.764, 0.561, 0.595, 0.528, 0.373, 0.840],
+          perception: [0.570, 0.540, 0.670, 0.920, 0.940, 0.890, 0.460, 0.740, 0.950, 0.530, 0.253, 0.430, 0.770, 0.340, 0.670],
+          reasoning: [0.390, 0.620, 0.170, 0.440, 0.860, 0.880, 0.800]
+        },
+        {
+          name: "MiniCPM-V-2.5",
+          scores: [0.757, 0.546, 0.631, 0.414, 0.493, 0.857],
+          perception: [0.610, 0.430, 0.690, 0.930, 0.980, 0.900, 0.460, 0.600, 0.940, 0.610, 0.055, 0.640, 0.790, 0.400, 0.700],
+          reasoning: [0.390, 0.430, 0.620, 0.450, 0.920, 0.880, 0.800]
+        },
+        {
+          name: "Phi3-Vision",
+          scores: [0.710, 0.503, 0.582, 0.428, 0.253, 0.700],
+          perception: [0.510, 0.480, 0.480, 0.880, 0.910, 0.660, 0.350, 0.760, 0.910, 0.560, 0.105, 0.380, 0.770, 0.370, 0.570],
+          reasoning: [0.380, 0.460, 0.290, 0.240, 0.850, 0.580, 0.680]
+        },
+        {
+          name: "mPLUG-Owl3-7B",
+          scores: [0.766, 0.524, 0.487, 0.422, 0.340, 0.850],
+          perception: [0.770, 0.420, 0.670, 0.890, 0.960, 0.920, 0.500, 0.660, 0.950, 0.590, 0.073, 0.380, 0.520, 0.300, 0.710],
+          reasoning: [0.350, 0.470, 0.520, 0.280, 0.900, 0.860, 0.810]
+        },
+        {
+          name: "Molmo-7B-D",
+          scores: [0.720, 0.553, 0.648, 0.536, 0.548, 0.724],
+          perception: [0.560, 0.530, 0.350, 0.870, 0.920, 0.740, 0.390, 0.630, 0.920, 0.670, 0.015, 0.760, 0.800, 0.490, 0.620],
+          reasoning: [0.500, 0.560, 0.600, 0.530, 0.940, 0.530, 0.710]
+        }
+      ],
+      
+      // Remote sensing specialized models
+      remote: [
+        {
+          name: "GeoChat",
+          scores: [0.642, 0.469, 0.480, 0.384, 0.368, 0.697],
+          perception: [0.313, 0.299, 0.433, 0.922, 0.710, 0.790, 0.218, 0.762, 0.934, 0.510, 0.297, 0.064, 0.671, 0.300, 0.415],
+          reasoning: [0.255, 0.470, 0.105, 0.455, 0.660, 0.810, 0.647]
+        },
+        {
+          name: "LHRS-Bot",
+          scores: [0.633, 0.290, 0.171, 0.366, 0.426, 0.610],
+          perception: [0.288, 0.306, 0.318, 0.915, 0.755, 0.500, 0.252, 0.164, 0.936, 0.330, "–", 0.076, "–", 0.267, 0.325],
+          reasoning: [0.260, 0.437, 0.480, 0.408, 0.550, 0.435, 0.767]
+        },
+        {
+          name: "LHRS-Bot-nova",
+          scores: [0.688, 0.530, 0.526, 0.450, 0.120, 0.644],
+          perception: [0.479, 0.271, 0.350, 0.950, 0.840, 0.690, 0.412, 0.642, 0.972, 0.528, 0.271, 0.372, 0.737, 0.257, 0.560],
+          reasoning: [0.315, 0.540, 0.185, 0.098, 0.525, 0.520, 0.807]
+        },
+        {
+          name: "VHM",
+          scores: [0.751, 0.703, 0.436, 0.392, 0.348, 0.744],
+          perception: [0.621, 0.428, 0.299, 0.966, 0.765, 0.760, 0.342, 0.872, 0.932, 0.564, 0.598, 0.922, 0.431, 0.347, 0.580],
+          reasoning: [0.405, 0.383, 0.340, 0.350, 0.740, 0.760, 0.737]
+        },
+        {
+          name: "RemoteCLIP",
+          scores: [0.657, 0.283, 0.552, 0.326, 0.364, 0.739],
+          perception: [0.510, 0.303, 0.369, 0.891, 0.775, 0.700, 0.435, 0.295, 0.715, 0.500, "–", 0.050, 0.688, 0.248, 0.545],
+          reasoning: [0.335, 0.210, 0.035, 0.245, 0.820, 0.650, 0.740]
+        },
+        {
+          name: "GeoRSCLIP",
+          scores: [0.745, 0.198, 0.285, 0.210, 0.397, 0.884],
+          perception: [0.705, 0.303, 0.471, 0.944, 0.860, 0.980, 0.230, 0.360, 0.750, 0.250, "–", 0.050, 0.361, 0.248, 0.570],
+          reasoning: [0.400, 0.310, 0.310, 0.260, 0.945, 0.935, 0.880]
+        }
+      ]
+    };
+
+    // Format numbers to three decimal places
+    function formatNumber(num) {
+      if (typeof num === 'string' && num === '–') {
+        return num; // Keep dash unchanged
+      }
+      if (typeof num === 'number') {
+        return num.toFixed(3);
+      }
+      return num;
+    }
+
+    // Dynamically render leaderboard table
+    function renderLeaderboard() {
+      const tbody = document.getElementById('leaderboard-body');
+      if (!tbody) return;
+      
+      tbody.innerHTML = '';
+      
+      // Render proprietary models
+      if (leaderboardData.proprietary.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-warning-light group-proprietary';
+        groupRow.onclick = () => toggleGroup('proprietary', 'leaderboard-table');
+        groupRow.innerHTML = '<td colspan="7" class="has-text-centered has-text-weight-bold">Proprietary Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.proprietary.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-proprietary';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            <td>${formatNumber(model.scores[0])}</td>
+            <td>${formatNumber(model.scores[1])}</td>
+            <td>${formatNumber(model.scores[2])}</td>
+            <td>${formatNumber(model.scores[3])}</td>
+            <td>${formatNumber(model.scores[4])}</td>
+            <td>${formatNumber(model.scores[5])}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      }
+      
+      // Render general-domain models
+      if (leaderboardData.general.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-info-light group-general';
+        groupRow.onclick = () => toggleGroup('general', 'leaderboard-table');
+        groupRow.innerHTML = '<td colspan="7" class="has-text-centered has-text-weight-bold">General-domain Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.general.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-general';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            <td>${formatNumber(model.scores[0])}</td>
+            <td>${formatNumber(model.scores[1])}</td>
+            <td>${formatNumber(model.scores[2])}</td>
+            <td>${formatNumber(model.scores[3])}</td>
+            <td>${formatNumber(model.scores[4])}</td>
+            <td>${formatNumber(model.scores[5])}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      }
+      
+      // Render remote sensing specialized models
+      if (leaderboardData.remote.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-primary-light group-remote';
+        groupRow.onclick = () => toggleGroup('remote', 'leaderboard-table');
+        groupRow.innerHTML = '<td colspan="7" class="has-text-centered has-text-weight-bold">Remote Sensing Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.remote.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-remote';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            <td>${formatNumber(model.scores[0])}</td>
+            <td>${formatNumber(model.scores[1])}</td>
+            <td>${formatNumber(model.scores[2])}</td>
+            <td>${formatNumber(model.scores[3])}</td>
+            <td>${formatNumber(model.scores[4])}</td>
+            <td>${formatNumber(model.scores[5])}</td>
+          `;
+          tbody.appendChild(row);
+        });
+      }
+    }
+
+    // Dynamically render perception capability table
+    function renderPerceptionTable() {
+      const tbody = document.getElementById('perception-body');
+      if (!tbody) return;
+      
+      tbody.innerHTML = '';
+      
+      // Render proprietary models
+      if (leaderboardData.proprietary.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-warning-light group-proprietary';
+        groupRow.onclick = () => toggleGroup('proprietary', 'perception-table');
+        groupRow.innerHTML = '<td colspan="16" class="has-text-centered has-text-weight-bold">Proprietary Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.proprietary.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-proprietary';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            ${model.perception.map(score => `<td>${formatNumber(score)}</td>`).join('')}
+          `;
+          tbody.appendChild(row);
+        });
+      }
+      
+      // Render general-domain models
+      if (leaderboardData.general.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-info-light group-general';
+        groupRow.onclick = () => toggleGroup('general', 'perception-table');
+        groupRow.innerHTML = '<td colspan="16" class="has-text-centered has-text-weight-bold">General-domain Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.general.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-general';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            ${model.perception.map(score => `<td>${formatNumber(score)}</td>`).join('')}
+          `;
+          tbody.appendChild(row);
+        });
+      }
+      
+      // Render remote sensing specialized models
+      if (leaderboardData.remote.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-primary-light group-remote';
+        groupRow.onclick = () => toggleGroup('remote', 'perception-table');
+        groupRow.innerHTML = '<td colspan="16" class="has-text-centered has-text-weight-bold">Remote Sensing Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.remote.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-remote';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            ${model.perception.map(score => `<td>${formatNumber(score)}</td>`).join('')}
+          `;
+          tbody.appendChild(row);
+        });
+      }
+    }
+
+    // Dynamically render reasoning capability table
+    function renderReasoningTable() {
+      const tbody = document.getElementById('reasoning-body');
+      if (!tbody) return;
+      
+      tbody.innerHTML = '';
+      
+      // Render proprietary models
+      if (leaderboardData.proprietary.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-warning-light group-proprietary';
+        groupRow.onclick = () => toggleGroup('proprietary', 'reasoning-table');
+        groupRow.innerHTML = '<td colspan="8" class="has-text-centered has-text-weight-bold">Proprietary Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.proprietary.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-proprietary';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            ${model.reasoning.map(score => `<td>${formatNumber(score)}</td>`).join('')}
+          `;
+          tbody.appendChild(row);
+        });
+      }
+      
+      // Render general-domain models
+      if (leaderboardData.general.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-info-light group-general';
+        groupRow.onclick = () => toggleGroup('general', 'reasoning-table');
+        groupRow.innerHTML = '<td colspan="8" class="has-text-centered has-text-weight-bold">General-domain Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.general.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-general';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            ${model.reasoning.map(score => `<td>${formatNumber(score)}</td>`).join('')}
+          `;
+          tbody.appendChild(row);
+        });
+      }
+      
+      // Render remote sensing specialized models
+      if (leaderboardData.remote.length > 0) {
+        // Add group header row
+        const groupRow = document.createElement('tr');
+        groupRow.className = 'has-background-primary-light group-remote';
+        groupRow.onclick = () => toggleGroup('remote', 'reasoning-table');
+        groupRow.innerHTML = '<td colspan="8" class="has-text-centered has-text-weight-bold">Remote Sensing Large Vision-Language Models</td>';
+        tbody.appendChild(groupRow);
+        
+        // Render model data
+        leaderboardData.remote.forEach(model => {
+          const row = document.createElement('tr');
+          row.className = 'group-remote';
+          row.innerHTML = `
+            <td>${model.name}</td>
+            ${model.reasoning.map(score => `<td>${formatNumber(score)}</td>`).join('')}
+          `;
+          tbody.appendChild(row);
+        });
+      }
+    }
+
+
+
+
+
+
+
+
+
+    // Render tables after page loads
+    document.addEventListener('DOMContentLoaded', function() {
+      renderLeaderboard();
+      renderPerceptionTable();
+      renderReasoningTable();
+    });
+  </script>
+
   <script>
     let currentSortIndex = null;
     let currentSortDirection = "desc";
 
+    // Sort table by column
     function sortTable(n, th) {
       const table = document.getElementById("leaderboard-table");
       let switching = true;
@@ -1220,9 +718,23 @@
       }
     }
 
-    function toggleGroup(group) {
-      const rows = document.querySelectorAll(`.group-${group}`);
-      rows.forEach(row => row.style.display = row.style.display === "none" ? "" : "none");
+    // Toggle group visibility in specified table
+    function toggleGroup(group, tableId) {
+      // Get all data rows in the specified group (excluding header rows)
+      const table = document.getElementById(tableId);
+      if (!table) return;
+      
+      const dataRows = table.querySelectorAll(`.group-${group}:not(.has-background-warning-light):not(.has-background-info-light):not(.has-background-primary-light)`);
+      const isHidden = dataRows[0] && dataRows[0].style.display === "none";
+      
+      // Toggle visibility of data rows only, keep header rows visible
+      dataRows.forEach(row => {
+        if (isHidden) {
+          row.style.display = ""; // Show rows
+        } else {
+          row.style.display = "none"; // Hide rows
+        }
+      });
     }
 
   </script>
@@ -1231,6 +743,7 @@
     let perceptionSortIndex = null;
     let perceptionSortDirection = "desc";
 
+    // Sort perception table by column
     function sortPerceptionTable(n, th) {
       const table = document.getElementById("perception-table");
       let switching = true;
@@ -1276,6 +789,7 @@
     let reasoningSortIndex = null;
     let reasoningSortDirection = "desc";
 
+    // Sort reasoning table by column
     function sortReasoningTable(n, th) {
       const table = document.getElementById("reasoning-table");
       let dir = "desc";
